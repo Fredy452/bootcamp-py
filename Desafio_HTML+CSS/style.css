@@ -7,15 +7,24 @@ body{
 }
 .container{
     margin: auto;
-   
+}
+.banner{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 0;
+    background-image: url(images/2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
 }
 header{
     height: 100px;
+    top: 200px;
     background-color: #262626;
     width: 100%;
-    z-index: 12;
-    position: fixed;
-    margin-top: 200px;
+    /* z-index: 12; */
+    position: absolute;
 }
 .logo{
     width: 30%;
@@ -32,6 +41,7 @@ header{
 nav{
     float: right;
     line-height: 100px;
+
 }
 nav a{
     text-decoration: none;
@@ -41,32 +51,21 @@ nav a{
     letter-spacing: 4px;
     margin: 0 10px ;
 }
-.banner{
-    width: 100%;
-    height: 200px;
-    border-radius: 20px 20px 0 0;
-    position: fixed;
-    top: 0;
-    background-image: url(2.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center; 
-}
-.banner h2{
+/* .banner h2{
     padding-top: 8px;
     font-size: 70px;
     font-family: poppins;
     text-transform: uppercase;
     color: #fff;
-}
+} */
 .media{
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 300px;
     background: #ddd;
-    height: 250px;
+    height: 300px;
 }
-.media h2{
+.title{
     font-family: bignoodletitling;
     letter-spacing: 4px;
     padding-top: 30px;
@@ -77,22 +76,55 @@ nav a{
     padding: 2% 0;
     font-family: merienda;
     line-height: 30px;
+    display: block;
 }
-/* card */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
+.card-container{
+    height: 100%;
+    position: absolute;
+    top: 650px;
+    height: 300px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
-  .price {
-    color: grey;
+  .product2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .product2 img{
+    border-radius: 20px 20px 0 0;
+    width: 100px;
+    height: 250px;
+  }
+  .precio{
+    color:grey;
     font-size: 22px;
   }
-  
-  .card button {
+  .description{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+  }
+
+  .product2 button{
     border: none;
     outline: 0;
     padding: 12px;
@@ -102,8 +134,8 @@ nav a{
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    padding: 20px;
   }
-  
-  .card button:hover {
+  .product2 button:hover{
     opacity: 0.7;
   }
