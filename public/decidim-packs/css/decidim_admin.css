@@ -12584,6 +12584,26 @@ span.loading-spinner::before {
     margin: 0 auto;
   }
 }
+.hero-cta {
+  background-color: #03c416 !important;
+}
+
+.title-bar {
+  background-color: #05002e !important;
+}
+
+.main-footer {
+  background-color: #05002e !important;
+}
+
+.mini-footer {
+  background-color: #05002e !important;
+}
+
+.navbar js-append {
+  background: #05002e !important;
+}
+
 .list-reset {
   margin: 0;
   padding: 0;
@@ -16889,6 +16909,26 @@ form .card, form .chart-tooltip {
 
 .ql-container.ql-snow {
   border: 1px solid #ccc;
+}
+
+.hero-cta {
+  background-color: #03c416 !important;
+}
+
+.title-bar {
+  background-color: #05002e !important;
+}
+
+.main-footer {
+  background-color: #05002e !important;
+}
+
+.mini-footer {
+  background-color: #05002e !important;
+}
+
+.navbar js-append {
+  background: #05002e !important;
 }
 
 .editor-container {

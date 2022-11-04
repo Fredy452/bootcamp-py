@@ -5,3 +5,42 @@
 // To override styles use decidim_application.scss
 //
 // By default this is empty.
+.hero-cta {
+  background-color: #03c416 !important;
+}
+.title-bar {
+  background-color: #05002e !important;
+}
+.main-footer {
+  background-color: #05002e !important;
+}
+.mini-footer {
+  background-color: #05002e !important;
+}
+.navbar js-append {
+    background: #05002e !important;
+}
+
+// :root {
+//     --primary: #448222;
+//     --primary-rgb: 239, 96, 77;
+//     --secondary: #39747f;
+//     --secondary-rgb: 57, 116, 127;
+//     --success: #57d685;
+//     --success-rgb: 87, 214, 133;
+//     --warning: #ffae00;
+//     --warning-rgb: 255, 174, 0;
+//     --alert: #ec5840;
+//     --alert-rgb: 236, 88, 64;
+//     --highlight: #be6400;
+//     --highlight-rgb: 190, 100, 0;
+//     --highlight-alternative: #ff5731;
+//     --highlight-alternative-rgb: 255, 87, 49;
+//     --proposals: #238ff7;
+//     --actions: #57d685;
+//     --debates: #fa6c96;
+//     --meetings: #fabc6c;
+//     --twitter: #55acee;
+//     --facebook: #3b5998;
+//     --google: #4285f4;
+// }

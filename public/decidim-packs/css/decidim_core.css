@@ -1271,6 +1271,26 @@
   border: 1px solid #ccc;
 }
 
+.hero-cta {
+  background-color: #03c416 !important;
+}
+
+.title-bar {
+  background-color: #05002e !important;
+}
+
+.main-footer {
+  background-color: #05002e !important;
+}
+
+.mini-footer {
+  background-color: #05002e !important;
+}
+
+.navbar js-append {
+  background: #05002e !important;
+}
+
 .editor-container {
   margin-bottom: 1.5rem;
 }
@@ -1317,6 +1337,26 @@
     margin: 0 auto;
   }
 }
+.hero-cta {
+  background-color: #03c416 !important;
+}
+
+.title-bar {
+  background-color: #05002e !important;
+}
+
+.main-footer {
+  background-color: #05002e !important;
+}
+
+.mini-footer {
+  background-color: #05002e !important;
+}
+
+.navbar js-append {
+  background: #05002e !important;
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -19304,6 +19344,10 @@ label + .meeting-polls__answer + label {
   align-items: baseline;
   justify-content: space-between;
   margin-top: 2rem;
+}
+
+.navbar js-append row colum {
+  background-color: #16c7c7 !important;
 }
 
 /*# sourceMappingURL=decidim_core.css.map*/
