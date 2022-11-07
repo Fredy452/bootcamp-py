@@ -5,14 +5,17 @@ module Decidim
   module MenuHelper
     # Public: Returns the main menu presenter object
     def main_menu
-      @main_menu ||= ::Decidim::MenuPresenter.new(
-        :menu,
-        self,
-        element_class: "main-nav__link",
-        active_class: "main-nav__link--active",
-        label: t("layouts.decidim.header.main_menu")
-      )
+      Nav.all
     end
+    # def main_menu
+    #   @main_menu ||= ::Decidim::MenuPresenter.new(
+    #     :menu,
+    #     self,
+    #     element_class: "main-nav__link",
+    #     active_class: "main-nav__link--active",
+    #     label: t("layouts.decidim.header.main_menu")
+    #   )
+    # end
 
     # Public: Returns the user menu presenter object
     def user_menu
