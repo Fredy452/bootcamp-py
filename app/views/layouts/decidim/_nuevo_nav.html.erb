@@ -1,11 +1,11 @@
 <nav class="main-nav">
   <ul>
-    <%= main_menu.each do |menu| %>
+  <% main_menu.each do |menu| %>
     <li class="main-nav__link">
       <a href="<%= menu.url %>">
         <%= menu.laber %>
       </a>
     </li>
-    <% end %>
+  <% end %>
   </ul>
 </nav>
